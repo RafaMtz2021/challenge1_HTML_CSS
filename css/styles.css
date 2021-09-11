@@ -1,5 +1,5 @@
 nav, .static-nav, .logo, .search, .buttons, .wrap-container,
-.left-bar, .middle, .right-bar, .middle-header, .nav-links,
+.left-bar-wrapper, .middle, .right-bar, .middle-header, .nav-links,
 .info-login, .first-article, .article-image, .first-article-content,
 .button-article-section, .button-article {
   border: black 1px solid;
@@ -30,22 +30,13 @@ nav, .static-nav, .logo, .search, .buttons, .wrap-container,
           align-items: center;
 }
 
-.search {
-  padding-left: 10px;
-}
-
-.buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
 .logo {
   width: 100px;
   height: 50px;
+}
+
+.search {
+  padding-left: 10px;
 }
 
 .content-inner {
@@ -70,11 +61,6 @@ nav, .static-nav, .logo, .search, .buttons, .wrap-container,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.left-bar {
-  width: 30%;
-  height: auto;
 }
 
 .middle {
@@ -122,5 +108,43 @@ img {
 
 .right-bar {
   width: 30%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.left-bar-container {
+  border: 1px dashed blue;
+}
+
+.btn-create, .btn-login, h2, .left-info {
+  border: 1px solid gray;
+}
+
+.left-bar-wrapper {
+  width: 30%;
+  height: auto;
+}
+
+.btn-create {
+  width: 208px;
+  height: 40px;
+  background: #3434f8;
+  color: white;
+}
+
+.btn-login {
+  width: 208px;
+  height: 40px;
+}
+
+.tags {
+  overflow-y: scroll;
+  max-height: 50vh;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,5 +1,5 @@
 nav, .static-nav ,.logo ,.search ,.buttons, .wrap-container,
-.left-bar, .middle, .right-bar, .middle-header, .nav-links,
+.left-bar-wrapper, .middle, .right-bar, .middle-header, .nav-links,
 .info-login, .first-article, .article-image, .first-article-content,
 .button-article-section, .button-article{
     border: black 1px solid;
@@ -15,17 +15,11 @@ nav, .static-nav ,.logo ,.search ,.buttons, .wrap-container,
     display: flex;
     align-items: center;
 }
-.search{padding-left: 10px;}
-
-.buttons{
-    display: flex;
-    justify-content: flex-start;
-    
-}
 .logo{
     width: 100px;
     height: 50px;
 }
+.search{padding-left: 10px;}
 .content-inner{
     width: 100%;
     display: flex;
@@ -38,10 +32,7 @@ nav, .static-nav ,.logo ,.search ,.buttons, .wrap-container,
     padding: 16px;
     display: flex;   
 }
-.left-bar{
-    width: 30%;
-    height: auto;
-}
+
 .middle{
     width: 60%;
     display: flex;
@@ -67,4 +58,40 @@ img{width: 100%;}
 }
 .right-bar{
     width: 30%;
+}
+
+
+//=======Aquí van los estilos de Left SideBar================//
+a{text-decoration: none;}
+li{list-style: none;}
+
+
+.left-bar-container{
+    border: 1px dashed blue;
+}
+
+.btn-create, .btn-login, h2, .left-info{
+    border: 1px solid gray;
+}
+
+.left-bar-wrapper{
+    width: 30%;
+    height: auto;
+}
+
+.btn-create{
+    width: 208px;
+    height: 40px;
+    background:rgb(52, 52, 248);
+    color: white;
+}
+
+.btn-login{
+    width: 208px;
+    height: 40px;
+}
+
+.tags{
+    overflow-y: scroll;
+    max-height: 50vh;
 }
