@@ -362,8 +362,20 @@ li{list-style: none;}
                 .icons-right {
                     .save-container {
                         display: flex;
+                        align-items: center;
                         p {
                             margin-right: 10px;
+                            color: #575757;
+                        }
+                        button {
+                            padding: 8px 17px;
+                            border-radius: 5px;
+                            border: none;
+                            color: #575757;
+                        }
+                        button:hover {
+                            background: #BDBDBD;
+                            color: #000;
                         }
                     }
                 }
@@ -390,6 +402,7 @@ li{list-style: none;}
             .img-conteiner-relative{
                 position: relative;
                 margin-right: 10px;
+        
                
                /*  margin-right: 10px; */
                 img{
@@ -423,6 +436,7 @@ li{list-style: none;}
     border-right: 5px solid #3B49DF;
     border-bottom: 5px solid #3B49DF;
     border-left: 2px solid #3B49DF;
+    margin-bottom: 10px;
 
     .img-text-conteiner{
         display: flex;
