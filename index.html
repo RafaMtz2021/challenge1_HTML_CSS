@@ -9,18 +9,34 @@
 </head>
 
 <body>
-    <nav class="static-nav">
-        <div class="left-elements">
-            <div class="logo"></div>
-            <div class="search"><input type="text"></div>
-        </div>
-        <div class="right-elements">
-            <ul class="buttons">
-                <li class="login"><button>Log in</button></li>
-                <li class="create"><button>Create account</button></li>
-            </ul>
-        </div>
-    </nav>
+    <div class = "nav">
+        <nav class="static-nav">
+            <div class="left-elements">
+                <div class="logo">
+                    <a class = "dev-logo" href= "#">
+                        <svg width="50" height="40" viewBox="0 0 50 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="50" height="40" rx="3" style="fill: black;"></rect>
+                            <path d="M19.099 23.508c0 1.31-.423 2.388-1.27 3.234-.838.839-1.942 1.258-3.312 1.258h-4.403V12.277h4.492c1.31 0 2.385.423 3.224 1.27.846.838 1.269 1.912 1.269 3.223v6.738zm-2.808 0V16.77c0-.562-.187-.981-.562-1.258-.374-.285-.748-.427-1.122-.427h-1.685v10.107h1.684c.375 0 .75-.138 1.123-.415.375-.285.562-.708.562-1.27zM28.185 28h-5.896c-.562 0-1.03-.187-1.404-.561-.375-.375-.562-.843-.562-1.404V14.243c0-.562.187-1.03.562-1.404.374-.375.842-.562 1.404-.562h5.896v2.808H23.13v3.65h3.088v2.808h-3.088v3.65h5.054V28zm7.12 0c-.936 0-1.684-.655-2.246-1.965l-3.65-13.758h3.089l2.807 10.804 2.808-10.804H41.2l-3.65 13.758C36.99 27.345 36.241 28 35.305 28z" style="fill: white;"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="search">
+                    <input class = "search_real" type="text" placeholder="Search..." autocomplete="off">
+                    <button type="submit" class = "lupa">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="crayons-icon">
+                            <path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0111 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 01-1.969 5.617zm-2.006-.742A6.977 6.977 0 0018 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 004.875-1.975l.15-.15z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="right-elements">
+                <ul class="buttons">
+                    <li><a href= "#"></a><button class = "login">Log in</button></li>
+                    <li><button  class="create">Create account</button></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <div class="content-inner">
         <main class="wrap-container">
             <section class="left-bar-wrapper">
@@ -331,9 +347,100 @@
                 </article>
             </section>
             <section class="right-bar">
-                <p>Soy columna derecha</p>
+                <div class = "forem">
+                    <div>
+                        <a href = "#">
+                            <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--SHlJgkk0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_350/https://jess.forem.lol/remoteimages/uploads/articles/a3ojuveqrskiei1m6x6x.png">
+                        </a>
+                    </div>
+                    <p class=""><strong><a href="https://forem.dev">Forem.dev</a></strong> is a community dedicated to discussing and discovering the open source community software that powers DEV.</p>
+                    <p><a href="https://forem.dev/enter">→ Join</a></p>
+                </div>
+                <div class = "listings">
+                    <header>
+                        <h3>Listings</h3>
+                        <div>
+                            <a href = "#">See all</a>
+                        </div>
+                    </header>
+                    <div class = "listings-section">
+                        <a class = "listings-article" href = "#">
+                            <h3 class = "news">Practice and solve programming challenges</h3>
+                            <p class="listings-secondary">education</p>
+                        </a>
+                    </div>
+                    <div class = "listings-section">
+                        <a class = "listings-article" href = "#">
+                            <h3 class = "news">Learn CSS and become a better developer</h3>
+                            <p class="listings-secondary">mentors</p>
+                        </a>
+                    </div>
+                    <div class = "listings-section">
+                        <a class = "listings-article" href = "#">
+                            <h3 class = "news">Discover how Javascript frameworks work</h3>
+                            <p class="listings-secondary">education</p>
+                        </a>
+                    </div>
+                    <div class = "listings-section">
+                        <a class = "listings-article" href = "#">
+                            <h3 class = "news">Become a Pro-Developer Free!</h3>
+                            <p class="listings-secondary">education</p>
+                        </a>
+                    </div>
+                </div>
+                <div class = "listings">
+                    <header>
+                        <h3>#help</h3>
+                        <div>
+                            <a href = "#">See all</a>
+                        </div>
+                    </header>
+                    <div class = "listings-section">
+                        <a class = "listings-article" href = "#">
+                            <h3 class = "news">Newbie frontend developer incoming</h3>
+                            <p class="listings-secondary">2 comments</p>
+                        </a>
+                    </div>
+                    <div class = "listings-section">
+                        <a class = "listings-article" href = "#">
+                            <h3 class = "news">How do I embed GIFs?</h3>
+                            <p class="listings-secondary">3 comments</p>
+                        </a>
+                    </div>
+                    <div class = "listings-section">
+                        <a class = "listings-article" href = "#">
+                            <h3 class = "news">Help on JS!</h3>
+                            <p class="listings-secondary">4 comments</p>
+                        </a>
+                    </div>
+                </div>
+
+
             </section>
         </main>
     </div>
+
+    <footer class = "no-one-sees-this">
+        <div class = "container-footer">
+            <p class="footer-text"><a href="#">DEV Community</a> – A constructive and inclusive social network for software developers. With you every step of your journey.</p>
+        </div>
+        <div class = "more-text">
+            <p class="fs-s">Built on <a href="https://www.forem.com" class="crayons-link" target="_blank" rel="noopener">Forem</a> — the <a href="https://dev.to/t/opensource" target="_blank" rel="noopener" class="crayons-link">open source</a> software that powers <a href="https://dev.to" target="_blank" rel="noopener" class="crayons-link">DEV</a> and other inclusive communities.</p>
+            <p class="fs-s">Made with love and <a href="https://dev.to/t/rails" target="_blank" rel="noopener" class="crayons-link">Ruby on Rails</a>. DEV Community <span title="copyright">©</span> 2016 - 2021.</p>
+            <div class ="loguito">
+                <a href="https://www.forem.com" target="_blank" rel="noopener" class="inline-block mt-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" role="img" aria-labelledby="a74xgfiosipui5c6qu8poqgjyifir8xz" class="crayons-icon crayons-icon--default"><title id="a74xgfiosipui5c6qu8poqgjyifir8xz">Forem logo</title>
+                    <g clip-path="url(#clip0)" fill="#1AB3A6">
+                        <path d="M4.603 1.438a8.056 8.056 0 017.643 5.478 8.543 8.543 0 00-3.023 5.968H8.054C3.606 12.884 0 9.296 0 4.87V1.468a.03.03 0 01.03-.03h4.573zM23.97 6.515a.03.03 0 01.03.03v2.833c0 4.11-3.354 7.442-7.491 7.442h-2.881v5.726h-2.305V14.53l.022-1.145c.294-3.843 3.526-6.87 7.469-6.87h5.155z"></path>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0">
+                            <path fill="#fff" d="M0 0h24v24H0z"></path>
+                        </clipPath>
+                    </defs>
+                </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
