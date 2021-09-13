@@ -35,7 +35,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: none;
+  display: block;
+  border-radius: 5px;
 }
 
 .static-nav .search .lupa {
@@ -48,14 +49,13 @@ body {
 }
 
 .static-nav .search .search_real {
-  margin-left: 50px;
-  border: none;
-  height: 24px;
+  height: 30px;
   width: 350px;
   font-size: 1em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: none;
 }
 
 .static-nav .right-elements ul {
@@ -73,11 +73,11 @@ body {
   font-size: 1em;
   font-weight: 700;
   border-radius: 3px;
-  background-color: #efefef;
+  background-color: white;
 }
 
-.static-nav .right-elements ul .login:hover {
-  background-color: darken #efefef, 10%;
+.static-nav .right-elements ul li .login:hover {
+  background-color: #efefef;
 }
 
 .static-nav .right-elements ul .create {
@@ -92,6 +92,10 @@ body {
   font-weight: 700;
 }
 
+.static-nav .right-elements ul li .create:hover {
+  background-color: #1d29b1;
+}
+
 .left-elements {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,6 +108,7 @@ body {
 .logo {
   width: auto;
   height: auto;
+  margin-right: 50px;
 }
 
 .search {
@@ -786,6 +791,14 @@ li {
   text-decoration: none;
   color: grey;
   margin: 5px auto;
+}
+
+.right-bar .listings-section:hover {
+  background-color: white;
+}
+
+.right-bar .listings-section:hover p, .right-bar .listings-section:hover h3 {
+  background-color: white;
 }
 
 footer {
