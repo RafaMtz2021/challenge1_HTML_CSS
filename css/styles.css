@@ -847,4 +847,29 @@ footer .loguito svg {
       -ms-flex-pack: center;
           justify-content: center;
 }
-/*# sourceMappingURL=styles.css.map */
+
+@media (max-width: 768px) {
+  .right-bar {
+    display: none;
+  }
+  .middle {
+    width: 80%;
+  }
+  .middle .first-article-content .icons-conteiner {
+    width: 90% !important;
+  }
+  .middle .first-article-content .title {
+    width: 90% !important;
+  }
+  .middle .first-article-content .hashtag-conteiner {
+    width: 90% !important;
+  }
+  .static-nav {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .static-nav .search .search_real {
+    height: 30px;
+    width: 200px;
+  }
+}

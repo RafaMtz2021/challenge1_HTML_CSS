@@ -701,3 +701,47 @@ footer {
         }
     }
 }
+
+
+
+//Responsive
+
+@media (max-width: 768px) {
+
+    .right-bar {
+        display: none;
+    }
+    .middle {
+        width: 80%;
+        .first-article-content{
+            .icons-conteiner {
+                width: 90% !important; 
+            }
+            .title {
+                width: 90% !important;
+            }
+            .hashtag-conteiner{
+                width: 90% !important;
+            }
+        }
+        
+    }
+
+    .static-nav{
+
+        flex-wrap: nowrap;
+        
+        .search {
+            
+            .search_real {
+                height: 30px;
+                width: 200px;
+            }
+        }
+    
+    }
+
+}
+
+
+
