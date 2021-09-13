@@ -327,8 +327,31 @@ li {
   font-weight: 300;
 }
 
+.follow {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #efefef;
+}
+
 .tag:hover {
   background-color: #e3e3e3;
+}
+
+.tag:hover .follow {
+  border-radius: 3px;
+  margin-left: 30px;
+  padding: 6px 10px;
+  width: 50px;
+  background: #3b49df;
+  color: white;
+  border: none;
+  font-size: 10px;
+  font-weight: 450;
+}
+
+.tag:hover .follow:hover {
+  background-color: #1d29b1;
 }
 
 .sn {
