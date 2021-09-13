@@ -127,7 +127,7 @@ body {
 }
 
 .wrap-container {
-  width: 80%;
+  width: 90%;
   padding: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -166,6 +166,8 @@ li {
 .first-title {
   color: #3b49df;
   background: white;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .left-bar-wrapper {
@@ -198,6 +200,8 @@ li {
   background: white;
   margin: 0 0 8px;
   padding: 5px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .left-info {
@@ -205,6 +209,9 @@ li {
   background: white;
   padding: 5px;
   margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 290;
+  text-justify: newspaper;
 }
 
 .btn-create {
@@ -224,6 +231,8 @@ li {
   text-align: center;
   color: white;
   margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .btn-create:hover {
@@ -246,6 +255,8 @@ li {
   background: white;
   text-align: center;
   color: #3b49df;
+  font-size: 14px;
+  font-weight: 550;
 }
 
 .btn-login:hover {
@@ -254,10 +265,19 @@ li {
 
 .dev-title {
   margin-bottom: 4px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .dev-community, .others {
   padding: 0;
+  font-size: 14px;
+  font-weight: 350;
+}
+
+.other-title {
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .dev-com-list {
@@ -291,6 +311,8 @@ li {
 
 .tag {
   padding: 8px;
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .sn {
