@@ -1,7 +1,13 @@
-body{
-    background: #efefef;
+*{
+    margin: 0;
+    padding: 0;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
+}
+
+body {
+
+    background: #efefef;
 }
 
 
@@ -111,17 +117,8 @@ body{
     display: flex;   
 }
 
-// .middle{
-//     max-width: 60%;
-//     display: flex;
-//     flex-direction: column;
-// }
-// .middle-header{
-//     display: flex;
-//     align-content: flex-start;
-// }
 img{width: 100%;}
-.first-article-content{
+/* .first-article-content{
     width: 100%;
     height: 100px;
 }
@@ -137,7 +134,7 @@ img{width: 100%;}
 .right-bar{
     max-width: 30%;
 }
-
+ */
 
 //=======Aquí van los estilos de Left SideBar================//
 a{text-decoration: none;}
@@ -282,8 +279,321 @@ li{list-style: none;}
     color:#3b49df;
 }
 
+
+
+// Middle Styles
+
+.middle {
+    max-width: 1200px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    .middle-header {
+
+        display: flex;
+        align-content: flex-start;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        h4 {
+            font-size: 25px;
+            color: #242424;
+        }
+        
+        .nav-links {
+
+            display: flex;
+            margin-right: 10px;
+
+           a {
+               margin-left: 15px;
+               font-size: 18px;
+               color: #242424;
+               padding: 10px 5px;
+           }
+           a:hover {
+               color: #3B49DF;
+               background:#DDDEEE;
+               border-radius: 5px;
+               padding: 10px 5px;
+               border-bottom: 5px solid #3B49DF;
+           }
+        }
+    }
+}
+
+.middle {
+    .first-article-content {
+        margin-top: 0px;
+        background-color: #fff;
+        border-radius: 10px;
+        .img-author {
+            display: flex;
+            padding: 10px  0 0 10px;
+            margin-bottom: 15px;
+            
+            .img-conteiner{
+                margin-right: 10px;
+               
+                img{
+                    border-radius: 50%;
+                    width: 35px;
+                }
+            }
+            .text-conteiner {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                font-size: 13px;
+                
+                .top-text {
+                    color: #000;
+                }
+
+                .down-text {
+                    color: #575757
+                }
+
+                .top-text:hover{
+                    background: #F6F6F6;
+                    color: #000;
+                }
+
+                .down-text:hover{
+                    background: #F6F6F6;
+                    color: #000;
+                }
+
+            }
+        }
+        .title {
+            width: 75%;
+            margin: 0 auto 15px;
+            text-align: start; 
+            h2{
+                cursor: pointer;
+            }
+        }
+        .title{
+            h2:hover {
+                color: #3B49DF;
+            }
+        }
+        .hashtag-conteiner {
+            width: 75%;
+            margin: 0 auto 15px;
+            display: flex;
+            justify-content: flex-start;
+
+            a{
+                margin-right: 10px;
+                color:#575757;
+                span {
+                    color: #9C9C9C;
+                }
+            }
+
+            a:hover {
+                background:#F6F6F6;
+                color: #000;
+            }
+            
+        }
+    }
+}
+
+.middle {
+    .first-article{
+        margin-bottom: 10px;
+        .first-article-content{
+            .icons-conteiner{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 75%;
+                margin: auto;
+                padding: 0 0 15px;
+
+                .left-conteiner{
+                    display: flex;
+                    .reaction-conteiner{
+                        display: flex;
+                        align-items: center;
+                        margin-right: 18px;
+                        cursor: pointer;
+                        i{
+                            margin-right: 10px;
+                        }
+
+                    }
+
+                    .reaction-conteiner:hover {
+                        background: #F6F6F6;
+                    }
+
+                    .comment-conteiner {
+                        display: flex;
+                        align-items: center;
+                        cursor: pointer;
+                        i{
+                            margin-right: 10px;
+                        }
+                    }
+
+                    .comment-conteiner:hover {
+                        background: #F6F6F6;
+                    }
+                }
+                .icons-right {
+                    .save-container {
+                        display: flex;
+                        align-items: center;
+                        p {
+                            margin-right: 10px;
+                            color: #575757;
+                        }
+                        button {
+                            padding: 8px 17px;
+                            border-radius: 5px;
+                            border: none;
+                            color: #575757;
+                        }
+                        button:hover {
+                            background: #BDBDBD;
+                            color: #000;
+                        }
+                    }
+                }
+
+
+            }
+
+        }
+
+    }
+
+}
+
+// absolute image styles - Middle
+
+
+
+.middle {
+           .img-author {
+                display: flex;
+                padding: 10px  0 0 10px;
+                margin-bottom: 15px;
+                
+            .img-conteiner-relative{
+                position: relative;
+                margin-right: 10px;
+        
+               
+               /*  margin-right: 10px; */
+                img{
+                    border-radius: 50%;
+                    width: 35px;
+                }
+                .img-conteiner-absolute{
+                    position: absolute;
+                    left:11.5px;
+                    top: 9.5px;
+                    img{
+                        transform: scale(.65);
+                    }
+                }
+            }
+           
+        }
+       
+        
+    }
+
+
+// Suscribe-Conteiner-Middle-Styles
+
+.suscribe-conteiner {
+
+    background: #F5F6FE;
+    padding: 35px;
+    border-radius: 10px;
+    border-top:2px solid #3B49DF;
+    border-right: 5px solid #3B49DF;
+    border-bottom: 5px solid #3B49DF;
+    border-left: 2px solid #3B49DF;
+    margin-bottom: 10px;
+
+    .img-text-conteiner{
+        display: flex;
+        align-items: center;
+        width: 95%;
+        margin: 0 auto 5px;
+
+        .img-conteiner{
+            margin: 0 20px 0 0;
+
+            
+            img{
+                width: 40px;
+                transform: rotate(350deg);
+                border-radius: 5px;
+            }
+        }
+        .text-conteiner{
+            font-size: 25px;
+            span{
+                color: #3B49DF;
+            }
+
+        }
+    }
+    .h4-conteiner {
+        width: 90%;
+        margin: 0 auto 30px;
+        color: #575757;
+        
+    }
+
+    .a-conteiner {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+
+        .btn {
+            padding: 10px;
+            background: #323EBE;
+            color: #fff;
+            width: 40%;
+            margin: 0 auto 15px;
+            font-weight: 500;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #1D29B1;
+        }
+        .a {
+            color:#323EBE;
+            font-weight: 700;
+            padding: 10px 5px;
+            width: 40%;
+            margin: auto;
+        }
+        .a:hover {
+            
+            background:#ECEDF5;
+        }
+    }
+
+
+}
 .right-bar {
     margin: 20px;
+    width: 20%;
     .forem {
         display: flex;
         justify-content: center;
