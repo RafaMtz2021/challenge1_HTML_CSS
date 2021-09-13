@@ -690,3 +690,39 @@ footer {
         }
     }
 }
+
+
+
+//Responsive
+
+@media (max-width: 768px) {
+
+    .right-bar {
+        display: none;
+    }
+    .middle {
+        width: 80%;
+        .first-article-content{
+            .icons-conteiner {
+                width: 90% !important; 
+            }
+            .title {
+                width: 90% !important;
+            }
+            .hashtag-conteiner{
+                width: 90% !important;
+            }
+        }
+        
+    }
+
+}
+
+
+
+/* .title {
+                width: 90%;
+            }
+            .hashtag-conteiner {
+                width: 90%;
+            } */

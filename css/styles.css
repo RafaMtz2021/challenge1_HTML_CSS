@@ -832,3 +832,28 @@ footer .loguito svg {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .right-bar {
+    display: none;
+  }
+  .middle {
+    width: 80%;
+  }
+  .middle .first-article-content .icons-conteiner {
+    width: 90% !important;
+  }
+  .middle .first-article-content .title {
+    width: 90% !important;
+  }
+  .middle .first-article-content .hashtag-conteiner {
+    width: 90% !important;
+  }
+}
+
+/* .title {
+                width: 90%;
+            }
+            .hashtag-conteiner {
+                width: 90%;
+            } */
