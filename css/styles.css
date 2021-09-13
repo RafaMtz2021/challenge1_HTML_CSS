@@ -363,7 +363,7 @@ li {
 }
 
 .middle .middle-header h4 {
-  font-size: 25px;
+  font-size: 16px;
   color: #242424;
 }
 
@@ -376,10 +376,10 @@ li {
 
 .middle .middle-header .nav-links a {
   margin-left: 15px;
-  font-size: 16px;
+  font-size: 14px;
   color: #242424;
   padding: 10px 5px;
-  font-weight: 500;
+  font-weight: 350;
 }
 
 .middle .middle-header .nav-links a:hover {
@@ -468,11 +468,13 @@ li {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  font-weight: 300;
 }
 
 .middle .first-article-content .hashtag-conteiner a {
   margin-right: 10px;
   color: #575757;
+  font-size: 13px;
 }
 
 .middle .first-article-content .hashtag-conteiner a span {
@@ -518,6 +520,8 @@ li {
           align-items: center;
   margin-right: 18px;
   cursor: pointer;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 .middle .first-article .first-article-content .icons-conteiner .left-conteiner .reaction-conteiner i {
@@ -536,6 +540,8 @@ li {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 .middle .first-article .first-article-content .icons-conteiner .left-conteiner .comment-conteiner i {
@@ -558,6 +564,8 @@ li {
 .middle .first-article .first-article-content .icons-conteiner .icons-right .save-container p {
   margin-right: 10px;
   color: #575757;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 .middle .first-article .first-article-content .icons-conteiner .icons-right .save-container button {
@@ -669,9 +677,9 @@ li {
   padding: 10px;
   background: #323EBE;
   color: #fff;
-  width: 40%;
+  width: 50%;
   margin: 0 auto 15px;
-  font-weight: 500;
+  font-weight: 400;
   border-radius: 5px;
 }
 
@@ -681,9 +689,10 @@ li {
 
 .suscribe-conteiner .a-conteiner .a {
   color: #323EBE;
-  font-weight: 700;
+  font-weight: 500;
   padding: 10px 5px;
-  width: 40%;
+  width: 53%;
+  border-radius: 5px;
   margin: auto;
 }
 
@@ -848,7 +857,7 @@ footer .loguito svg {
           justify-content: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1008px) {
   .right-bar {
     display: none;
   }

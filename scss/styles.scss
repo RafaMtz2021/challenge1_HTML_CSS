@@ -304,7 +304,7 @@ li{list-style: none;}
         margin-top: 20px;
 
         h4 {
-            font-size: 25px;
+            font-size: 16px;
             color: #242424;
         }
         
@@ -315,10 +315,10 @@ li{list-style: none;}
 
            a {
                margin-left: 15px;
-               font-size: 16px;
+               font-size: 14px;
                color: #242424;
                padding: 10px 5px;
-               font-weight: 500;
+               font-weight: 350;
            }
            a:hover {
                color: #3B49DF;
@@ -393,10 +393,12 @@ li{list-style: none;}
             margin: 0 auto 15px;
             display: flex;
             justify-content: flex-start;
+            font-weight: 300;
 
             a{
                 margin-right: 10px;
                 color:#575757;
+                font-size: 13px;
                 span {
                     color: #9C9C9C;
                 }
@@ -430,6 +432,8 @@ li{list-style: none;}
                         align-items: center;
                         margin-right: 18px;
                         cursor: pointer;
+                        font-size: 12px;
+                        font-weight: 300;
                         i{
                             margin-right: 10px;
                         }
@@ -444,6 +448,8 @@ li{list-style: none;}
                         display: flex;
                         align-items: center;
                         cursor: pointer;
+                        font-size: 12px;
+                        font-weight: 300;
                         i{
                             margin-right: 10px;
                         }
@@ -460,6 +466,8 @@ li{list-style: none;}
                         p {
                             margin-right: 10px;
                             color: #575757;
+                            font-size: 12px;
+                            font-weight: 300;
                         }
                         button {
                             padding: 8px 17px;
@@ -575,9 +583,9 @@ li{list-style: none;}
             padding: 10px;
             background: #323EBE;
             color: #fff;
-            width: 40%;
+            width: 50%;
             margin: 0 auto 15px;
-            font-weight: 500;
+            font-weight: 400;
             border-radius: 5px;
         }
         .btn:hover {
@@ -585,9 +593,10 @@ li{list-style: none;}
         }
         .a {
             color:#323EBE;
-            font-weight: 700;
+            font-weight: 500;
             padding: 10px 5px;
-            width: 40%;
+            width: 53%;
+            border-radius: 5px;
             margin: auto;
         }
         .a:hover {
@@ -706,7 +715,7 @@ footer {
 
 //Responsive
 
-@media (max-width: 768px) {
+@media (max-width: 1008px) {
 
     .right-bar {
         display: none;
