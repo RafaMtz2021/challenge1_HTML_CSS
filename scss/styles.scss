@@ -727,13 +727,21 @@ footer {
         
     }
 
+    .static-nav{
+
+        flex-wrap: nowrap;
+        
+        .search {
+            
+            .search_real {
+                height: 30px;
+                width: 200px;
+            }
+        }
+    
+    }
+
 }
 
 
 
-/* .title {
-                width: 90%;
-            }
-            .hashtag-conteiner {
-                width: 90%;
-            } */
