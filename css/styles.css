@@ -306,7 +306,8 @@ li {
 }
 
 .middle {
-  max-width: 70%;
+  max-width: 1200px;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -661,6 +662,7 @@ li {
 
 .right-bar {
   margin: 20px;
+  width: 20%;
 }
 
 .right-bar .forem {
