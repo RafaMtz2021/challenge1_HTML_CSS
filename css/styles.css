@@ -299,6 +299,10 @@ li {
   padding: 8px;
 }
 
+.dev-com-list:hover {
+  background-color: #e3e3e3;
+}
+
 .social-networks {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -321,6 +325,10 @@ li {
   padding: 8px;
   font-size: 15px;
   font-weight: 300;
+}
+
+.tag:hover {
+  background-color: #e3e3e3;
 }
 
 .sn {
