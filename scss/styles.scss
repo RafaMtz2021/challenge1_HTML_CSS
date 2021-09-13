@@ -296,6 +296,7 @@ li{list-style: none;}
         align-items: center;
         justify-content: space-between;
         margin-bottom: 20px;
+        margin-top: 20px;
 
         h4 {
             font-size: 25px;
@@ -309,9 +310,10 @@ li{list-style: none;}
 
            a {
                margin-left: 15px;
-               font-size: 18px;
+               font-size: 16px;
                color: #242424;
                padding: 10px 5px;
+               font-weight: 500;
            }
            a:hover {
                color: #3B49DF;
